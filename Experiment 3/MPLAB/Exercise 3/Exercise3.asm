@@ -100,7 +100,6 @@ MOVWF 0Ch
                 goto loop_3
                 goto loop_2
 
-
  ; Outputs
 ZERO:
 MOVLW 0x3F

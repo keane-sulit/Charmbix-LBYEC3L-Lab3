@@ -1,4 +1,4 @@
-MPASM  5.51                     EXERCISE3.ASM   2-9-2023  13:46:39         PAGE  1
+MPASM  5.51                     EXERCISE3.ASM   2-9-2023  14:01:26         PAGE  1
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -57,7 +57,7 @@ Warning[203]: Found opcode in column 1. (CALL)
 0016   2047           00027 CALL delay
 Warning[203]: Found opcode in column 1. (CALL)
 0017   2071           00028 CALL NINE
-MPASM  5.51                     EXERCISE3.ASM   2-9-2023  13:46:39         PAGE  2
+MPASM  5.51                     EXERCISE3.ASM   2-9-2023  14:01:26         PAGE  2
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -116,7 +116,7 @@ Warning[203]: Found opcode in column 1. (CALL)
 002F   2047           00055 CALL delay
 Warning[203]: Found opcode in column 1. (CALL)
 0030   2074           00056 CALL A
-MPASM  5.51                     EXERCISE3.ASM   2-9-2023  13:46:39         PAGE  3
+MPASM  5.51                     EXERCISE3.ASM   2-9-2023  14:01:26         PAGE  3
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -175,7 +175,7 @@ Warning[203]: Found opcode in column 1. (MOVWF)
 0048   008C           00083 MOVWF 0Ch
 Warning[207]: Found label after column 1. (loop_1)
 0049                  00084     loop_1:
-MPASM  5.51                     EXERCISE3.ASM   2-9-2023  13:46:39         PAGE  4
+MPASM  5.51                     EXERCISE3.ASM   2-9-2023  14:01:26         PAGE  4
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
@@ -203,164 +203,163 @@ Warning[207]: Found label after column 1. (loop_3)
 0054   2853           00100                 goto loop_3
 0055   284E           00101                 goto loop_2
                       00102 
-                      00103 
-                      00104  ; Outputs
-0056                  00105 ZERO:
+                      00103  ; Outputs
+0056                  00104 ZERO:
 Warning[203]: Found opcode in column 1. (MOVLW)
-0056   303F           00106 MOVLW 0x3F
+0056   303F           00105 MOVLW 0x3F
 Warning[203]: Found opcode in column 1. (MOVWF)
-0057   0086           00107 MOVWF 06h
+0057   0086           00106 MOVWF 06h
 Warning[203]: Found opcode in column 1. (return)
-0058   0008           00108 return
-                      00109 
-0059                  00110 ONE:
+0058   0008           00107 return
+                      00108 
+0059                  00109 ONE:
 Warning[203]: Found opcode in column 1. (MOVLW)
-0059   3006           00111 MOVLW 0x06
+0059   3006           00110 MOVLW 0x06
 Warning[203]: Found opcode in column 1. (MOVWF)
-005A   0086           00112 MOVWF 06h
+005A   0086           00111 MOVWF 06h
 Warning[203]: Found opcode in column 1. (return)
-005B   0008           00113 return
-                      00114 
-005C                  00115 TWO:
+005B   0008           00112 return
+                      00113 
+005C                  00114 TWO:
 Warning[203]: Found opcode in column 1. (MOVLW)
-005C   305B           00116 MOVLW 0x5B
+005C   305B           00115 MOVLW 0x5B
 Warning[203]: Found opcode in column 1. (MOVWF)
-005D   0086           00117 MOVWF 06h
+005D   0086           00116 MOVWF 06h
 Warning[203]: Found opcode in column 1. (return)
-005E   0008           00118 return
-                      00119 
-005F                  00120 THREE:
+005E   0008           00117 return
+                      00118 
+005F                  00119 THREE:
 Warning[203]: Found opcode in column 1. (MOVLW)
-005F   304F           00121 MOVLW 0x4F
+005F   304F           00120 MOVLW 0x4F
 Warning[203]: Found opcode in column 1. (MOVWF)
-0060   0086           00122 MOVWF 06h
-MPASM  5.51                     EXERCISE3.ASM   2-9-2023  13:46:39         PAGE  5
+0060   0086           00121 MOVWF 06h
+Warning[203]: Found opcode in column 1. (return)
+MPASM  5.51                     EXERCISE3.ASM   2-9-2023  14:01:26         PAGE  5
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
   VALUE
 
-Warning[203]: Found opcode in column 1. (return)
-0061   0008           00123 return
-                      00124 
-0062                  00125 FOUR:
+0061   0008           00122 return
+                      00123 
+0062                  00124 FOUR:
 Warning[203]: Found opcode in column 1. (MOVLW)
-0062   3066           00126 MOVLW 0x66
+0062   3066           00125 MOVLW 0x66
 Warning[203]: Found opcode in column 1. (MOVWF)
-0063   0086           00127 MOVWF 06h
+0063   0086           00126 MOVWF 06h
 Warning[203]: Found opcode in column 1. (return)
-0064   0008           00128 return
-                      00129 
-0065                  00130 FIVE:
+0064   0008           00127 return
+                      00128 
+0065                  00129 FIVE:
 Warning[203]: Found opcode in column 1. (MOVLW)
-0065   306D           00131 MOVLW 0x6D
+0065   306D           00130 MOVLW 0x6D
 Warning[203]: Found opcode in column 1. (MOVWF)
-0066   0086           00132 MOVWF 06h
+0066   0086           00131 MOVWF 06h
 Warning[203]: Found opcode in column 1. (return)
-0067   0008           00133 return
-                      00134 
-0068                  00135 SIX:
+0067   0008           00132 return
+                      00133 
+0068                  00134 SIX:
 Warning[203]: Found opcode in column 1. (MOVLW)
-0068   307D           00136 MOVLW 0x7D
+0068   307D           00135 MOVLW 0x7D
 Warning[203]: Found opcode in column 1. (MOVWF)
-0069   0086           00137 MOVWF 06h
+0069   0086           00136 MOVWF 06h
 Warning[203]: Found opcode in column 1. (return)
-006A   0008           00138 return
-                      00139 
-006B                  00140 SEVEN:
+006A   0008           00137 return
+                      00138 
+006B                  00139 SEVEN:
 Warning[203]: Found opcode in column 1. (MOVLW)
-006B   3007           00141 MOVLW 0x07
+006B   3007           00140 MOVLW 0x07
 Warning[203]: Found opcode in column 1. (MOVWF)
-006C   0086           00142 MOVWF 06h
+006C   0086           00141 MOVWF 06h
 Warning[203]: Found opcode in column 1. (return)
-006D   0008           00143 return
-                      00144 
-006E                  00145 EIGHT:
+006D   0008           00142 return
+                      00143 
+006E                  00144 EIGHT:
 Warning[203]: Found opcode in column 1. (MOVLW)
-006E   307F           00146 MOVLW 0x7F
+006E   307F           00145 MOVLW 0x7F
 Warning[203]: Found opcode in column 1. (MOVWF)
-006F   0086           00147 MOVWF 06h
+006F   0086           00146 MOVWF 06h
 Warning[203]: Found opcode in column 1. (return)
-0070   0008           00148 return
-                      00149 
-0071                  00150 NINE:
+0070   0008           00147 return
+                      00148 
+0071                  00149 NINE:
 Warning[203]: Found opcode in column 1. (MOVLW)
-0071   306F           00151 MOVLW 0x6F
+0071   306F           00150 MOVLW 0x6F
 Warning[203]: Found opcode in column 1. (MOVWF)
-0072   0086           00152 MOVWF 06h
+0072   0086           00151 MOVWF 06h
 Warning[203]: Found opcode in column 1. (return)
-0073   0008           00153 return
-                      00154 
-0074                  00155 A:
+0073   0008           00152 return
+                      00153 
+0074                  00154 A:
 Warning[203]: Found opcode in column 1. (MOVLW)
-MPASM  5.51                     EXERCISE3.ASM   2-9-2023  13:46:39         PAGE  6
+0074   3077           00155 MOVLW 0x77
+MPASM  5.51                     EXERCISE3.ASM   2-9-2023  14:01:26         PAGE  6
 
 
 LOC  OBJECT CODE     LINE SOURCE TEXT
   VALUE
 
-0074   3077           00156 MOVLW 0x77
 Warning[203]: Found opcode in column 1. (MOVWF)
-0075   0086           00157 MOVWF 06h
+0075   0086           00156 MOVWF 06h
 Warning[203]: Found opcode in column 1. (return)
-0076   0008           00158 return
-                      00159 
-0077                  00160 Bseg:
+0076   0008           00157 return
+                      00158 
+0077                  00159 Bseg:
 Warning[203]: Found opcode in column 1. (MOVLW)
-0077   307C           00161 MOVLW 0x7C
+0077   307C           00160 MOVLW 0x7C
 Warning[203]: Found opcode in column 1. (MOVWF)
-0078   0086           00162 MOVWF 06h
+0078   0086           00161 MOVWF 06h
 Warning[203]: Found opcode in column 1. (return)
-0079   0008           00163 return
-                      00164 
-007A                  00165 C:
+0079   0008           00162 return
+                      00163 
+007A                  00164 C:
 Warning[203]: Found opcode in column 1. (MOVLW)
-007A   3039           00166 MOVLW 0x39
+007A   3039           00165 MOVLW 0x39
 Warning[203]: Found opcode in column 1. (MOVWF)
-007B   0086           00167 MOVWF 06h
+007B   0086           00166 MOVWF 06h
 Warning[203]: Found opcode in column 1. (return)
-007C   0008           00168 return
-                      00169 
-007D                  00170 D:
+007C   0008           00167 return
+                      00168 
+007D                  00169 D:
 Warning[203]: Found opcode in column 1. (MOVLW)
-007D   305E           00171 MOVLW 0x5E
+007D   305E           00170 MOVLW 0x5E
 Warning[203]: Found opcode in column 1. (MOVWF)
-007E   0086           00172 MOVWF 06h
+007E   0086           00171 MOVWF 06h
 Warning[203]: Found opcode in column 1. (return)
-007F   0008           00173 return
-                      00174 
-0080                  00175 E:
+007F   0008           00172 return
+                      00173 
+0080                  00174 E:
 Warning[203]: Found opcode in column 1. (MOVLW)
-0080   3079           00176 MOVLW 0x79
+0080   3079           00175 MOVLW 0x79
 Warning[203]: Found opcode in column 1. (MOVWF)
-0081   0086           00177 MOVWF 06h
+0081   0086           00176 MOVWF 06h
 Warning[203]: Found opcode in column 1. (return)
-0082   0008           00178 return
-                      00179 
-0083                  00180 F:
+0082   0008           00177 return
+                      00178 
+0083                  00179 F:
 Warning[203]: Found opcode in column 1. (MOVLW)
-0083   3071           00181 MOVLW 0x71
+0083   3071           00180 MOVLW 0x71
 Warning[203]: Found opcode in column 1. (MOVWF)
-0084   0086           00182 MOVWF 06h
+0084   0086           00181 MOVWF 06h
 Warning[203]: Found opcode in column 1. (return)
-0085   0008           00183 return
-                      00184 
-                      00185 ; main
-0086                  00186 START:
+0085   0008           00182 return
+                      00183 
+                      00184 ; main
+0086                  00185 START:
 Warning[203]: Found opcode in column 1. (CALL)
-0086   2005           00187 CALL count_up
+0086   2005           00186 CALL count_up
 Warning[203]: Found opcode in column 1. (CALL)
-0087   2026           00188 CALL count_down
-                      00189 
-MPASM  5.51                     EXERCISE3.ASM   2-9-2023  13:46:39         PAGE  7
-
-
-LOC  OBJECT CODE     LINE SOURCE TEXT
-  VALUE
-
+0087   2026           00187 CALL count_down
+                      00188 
 Warning[205]: Found directive in column 1. (END)
-                      00190 END
-MPASM  5.51                     EXERCISE3.ASM   2-9-2023  13:46:39         PAGE  8
+MPASM  5.51                     EXERCISE3.ASM   2-9-2023  14:01:26         PAGE  7
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
+                      00189 END
+MPASM  5.51                     EXERCISE3.ASM   2-9-2023  14:01:26         PAGE  8
 
 
 SYMBOL TABLE
