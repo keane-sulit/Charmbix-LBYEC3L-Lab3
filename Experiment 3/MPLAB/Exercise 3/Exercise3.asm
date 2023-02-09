@@ -83,15 +83,23 @@ MOVLW 0xFF
 MOVWF 0Ch
     loop_1:
     DECFSZ 0Ch, 1
-    goto loop_2
+    goto delay_plus
     return
-    loop_2:
-        MOVLW 0x82
-        MOVWF 0Dh
-            loop_3:
-            DECFSZ 0Dh, 1
-            goto loop_3
-            goto loop_1
+    delay_plus:
+    MOVLW 0xFF
+    MOVWF 0Dh
+        loop_2:
+        DECFSZ 0Dh, 1
+        goto delay_plus_plus
+        goto loop_1
+            delay_plus_plus:
+            MOVLW 0x02
+            MOVWF 0Eh
+                loop_3:
+                DECFSZ 0Eh, 1
+                goto loop_3
+                goto loop_2
+
 
  ; Outputs
 ZERO:

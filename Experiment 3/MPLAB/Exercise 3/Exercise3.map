@@ -1,47 +1,49 @@
 MPLINK 4.49, Linker
-Linker Map File - Created Thu Feb 09 13:20:32 2023
+Linker Map File - Created Thu Feb 09 13:46:40 2023
 
                                  Section Info
                   Section       Type    Address   Location Size(Bytes)
                 ---------  ---------  ---------  ---------  ---------
-                   .org_0       code   0x000000    program   0x000106
+                   .org_0       code   0x000000    program   0x000110
 
 
 
                               Program Memory Usage 
                                Start         End      
                            ---------   ---------      
-                            0x000000    0x000082      
-            131 out of 1094 program addresses used, program memory utilization is 11%
+                            0x000000    0x000087      
+            136 out of 1094 program addresses used, program memory utilization is 12%
 
 
 
                               Symbols - Sorted by Name
                      Name    Address   Location    Storage File                     
                 ---------  ---------  ---------  --------- ---------                
-                        A   0x00006f    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
-                     Bseg   0x000072    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
-                        C   0x000075    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
-                        D   0x000078    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
-                        E   0x00007b    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
-                    EIGHT   0x000069    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
-                        F   0x00007e    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
-                     FIVE   0x000060    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
-                     FOUR   0x00005d    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
-                     NINE   0x00006c    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
-                      ONE   0x000054    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
-                    SEVEN   0x000066    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
-                      SIX   0x000063    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
-                    START   0x000081    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
-                    THREE   0x00005a    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
-                      TWO   0x000057    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
-                     ZERO   0x000051    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
+                        A   0x000074    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
+                     Bseg   0x000077    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
+                        C   0x00007a    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
+                        D   0x00007d    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
+                        E   0x000080    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
+                    EIGHT   0x00006e    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
+                        F   0x000083    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
+                     FIVE   0x000065    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
+                     FOUR   0x000062    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
+                     NINE   0x000071    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
+                      ONE   0x000059    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
+                    SEVEN   0x00006b    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
+                      SIX   0x000068    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
+                    START   0x000086    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
+                    THREE   0x00005f    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
+                      TWO   0x00005c    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
+                     ZERO   0x000056    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
                count_down   0x000026    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
                  count_up   0x000005    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
                     delay   0x000047    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
+               delay_plus   0x00004c    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
+          delay_plus_plus   0x000051    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
                    loop_1   0x000049    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
-                   loop_2   0x00004c    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
-                   loop_3   0x00004e    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
+                   loop_2   0x00004e    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
+                   loop_3   0x000053    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
 
 
 
@@ -52,24 +54,26 @@ Linker Map File - Created Thu Feb 09 13:20:32 2023
                count_down   0x000026    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
                     delay   0x000047    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
                    loop_1   0x000049    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
-                   loop_2   0x00004c    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
-                   loop_3   0x00004e    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
-                     ZERO   0x000051    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
-                      ONE   0x000054    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
-                      TWO   0x000057    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
-                    THREE   0x00005a    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
-                     FOUR   0x00005d    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
-                     FIVE   0x000060    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
-                      SIX   0x000063    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
-                    SEVEN   0x000066    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
-                    EIGHT   0x000069    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
-                     NINE   0x00006c    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
-                        A   0x00006f    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
-                     Bseg   0x000072    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
-                        C   0x000075    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
-                        D   0x000078    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
-                        E   0x00007b    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
-                        F   0x00007e    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
-                    START   0x000081    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
+               delay_plus   0x00004c    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
+                   loop_2   0x00004e    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
+          delay_plus_plus   0x000051    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
+                   loop_3   0x000053    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
+                     ZERO   0x000056    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
+                      ONE   0x000059    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
+                      TWO   0x00005c    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
+                    THREE   0x00005f    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
+                     FOUR   0x000062    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
+                     FIVE   0x000065    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
+                      SIX   0x000068    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
+                    SEVEN   0x00006b    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
+                    EIGHT   0x00006e    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
+                     NINE   0x000071    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
+                        A   0x000074    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
+                     Bseg   0x000077    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
+                        C   0x00007a    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
+                        D   0x00007d    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
+                        E   0x000080    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
+                        F   0x000083    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
+                    START   0x000086    program     static X:\GitHub\Charmbix-LBYEC3L-Lab3\Experiment 3\MPLAB\Exercise 3\Exercise3.asm
 
 
