@@ -1,0 +1,396 @@
+MPASM  5.51                     EXERCISE3.ASM   2-9-2023  13:20:31         PAGE  1
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
+                      00001 ; init
+Warning[203]: Found opcode in column 1. (BSF)
+0000   1683           00002 BSF 03h, 5
+Warning[203]: Found opcode in column 1. (MOVLW)
+0001   3000           00003 MOVLW 0x00
+Warning[203]: Found opcode in column 1. (MOVWF)
+Message[302]: Register in operand not in bank 0.  Ensure that bank bits are correct.
+0002   0086           00004 MOVWF 86h ; Set all pin as outputs
+Warning[203]: Found opcode in column 1. (BCF)
+0003   1283           00005 BCF 03h, 5
+Warning[203]: Found opcode in column 1. (goto)
+0004   2881           00006 goto START
+                      00007 
+                      00008 ; subroutine - Count Up
+0005                  00009 count_up:
+Warning[203]: Found opcode in column 1. (CALL)
+0005   2051           00010 CALL ZERO
+Warning[203]: Found opcode in column 1. (CALL)
+0006   2047           00011 CALL delay
+Warning[203]: Found opcode in column 1. (CALL)
+0007   2054           00012 CALL ONE
+Warning[203]: Found opcode in column 1. (CALL)
+0008   2047           00013 CALL delay
+Warning[203]: Found opcode in column 1. (CALL)
+0009   2057           00014 CALL TWO
+Warning[203]: Found opcode in column 1. (CALL)
+000A   2047           00015 CALL delay
+Warning[203]: Found opcode in column 1. (CALL)
+000B   205A           00016 CALL THREE
+Warning[203]: Found opcode in column 1. (CALL)
+000C   2047           00017 CALL delay
+Warning[203]: Found opcode in column 1. (CALL)
+000D   205D           00018 CALL FOUR
+Warning[203]: Found opcode in column 1. (CALL)
+000E   2047           00019 CALL delay
+Warning[203]: Found opcode in column 1. (CALL)
+000F   2060           00020 CALL FIVE
+Warning[203]: Found opcode in column 1. (CALL)
+0010   2047           00021 CALL delay
+Warning[203]: Found opcode in column 1. (CALL)
+0011   2063           00022 CALL SIX
+Warning[203]: Found opcode in column 1. (CALL)
+0012   2047           00023 CALL delay
+Warning[203]: Found opcode in column 1. (CALL)
+0013   2066           00024 CALL SEVEN
+Warning[203]: Found opcode in column 1. (CALL)
+0014   2047           00025 CALL delay
+Warning[203]: Found opcode in column 1. (CALL)
+0015   2069           00026 CALL EIGHT
+Warning[203]: Found opcode in column 1. (CALL)
+0016   2047           00027 CALL delay
+Warning[203]: Found opcode in column 1. (CALL)
+0017   206C           00028 CALL NINE
+MPASM  5.51                     EXERCISE3.ASM   2-9-2023  13:20:31         PAGE  2
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
+Warning[203]: Found opcode in column 1. (CALL)
+0018   2047           00029 CALL delay
+Warning[203]: Found opcode in column 1. (CALL)
+0019   206F           00030 CALL A
+Warning[203]: Found opcode in column 1. (CALL)
+001A   2047           00031 CALL delay
+Warning[203]: Found opcode in column 1. (CALL)
+001B   2072           00032 CALL Bseg
+Warning[203]: Found opcode in column 1. (CALL)
+001C   2047           00033 CALL delay
+Warning[203]: Found opcode in column 1. (CALL)
+001D   2075           00034 CALL C
+Warning[203]: Found opcode in column 1. (CALL)
+001E   2047           00035 CALL delay
+Warning[203]: Found opcode in column 1. (CALL)
+001F   2078           00036 CALL D
+Warning[203]: Found opcode in column 1. (CALL)
+0020   2047           00037 CALL delay
+Warning[203]: Found opcode in column 1. (CALL)
+0021   207B           00038 CALL E
+Warning[203]: Found opcode in column 1. (CALL)
+0022   2047           00039 CALL delay
+Warning[203]: Found opcode in column 1. (CALL)
+0023   207E           00040 CALL F
+Warning[203]: Found opcode in column 1. (CALL)
+0024   2047           00041 CALL delay
+Warning[203]: Found opcode in column 1. (return)
+0025   0008           00042 return
+                      00043 
+                      00044 ; subroutine - Count Down
+0026                  00045 count_down:
+Warning[203]: Found opcode in column 1. (CALL)
+0026   207E           00046 CALL F
+Warning[203]: Found opcode in column 1. (CALL)
+0027   2047           00047 CALL delay
+Warning[203]: Found opcode in column 1. (CALL)
+0028   207B           00048 CALL E
+Warning[203]: Found opcode in column 1. (CALL)
+0029   2047           00049 CALL delay
+Warning[203]: Found opcode in column 1. (CALL)
+002A   2078           00050 CALL D
+Warning[203]: Found opcode in column 1. (CALL)
+002B   2047           00051 CALL delay
+Warning[203]: Found opcode in column 1. (CALL)
+002C   2075           00052 CALL C
+Warning[203]: Found opcode in column 1. (CALL)
+002D   2047           00053 CALL delay
+Warning[203]: Found opcode in column 1. (CALL)
+002E   2072           00054 CALL Bseg
+Warning[203]: Found opcode in column 1. (CALL)
+002F   2047           00055 CALL delay
+Warning[203]: Found opcode in column 1. (CALL)
+0030   206F           00056 CALL A
+MPASM  5.51                     EXERCISE3.ASM   2-9-2023  13:20:31         PAGE  3
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
+Warning[203]: Found opcode in column 1. (CALL)
+0031   2047           00057 CALL delay
+Warning[203]: Found opcode in column 1. (CALL)
+0032   206C           00058 CALL NINE
+Warning[203]: Found opcode in column 1. (CALL)
+0033   2047           00059 CALL delay
+Warning[203]: Found opcode in column 1. (CALL)
+0034   2069           00060 CALL EIGHT
+Warning[203]: Found opcode in column 1. (CALL)
+0035   2047           00061 CALL delay
+Warning[203]: Found opcode in column 1. (CALL)
+0036   2066           00062 CALL SEVEN
+Warning[203]: Found opcode in column 1. (CALL)
+0037   2047           00063 CALL delay
+Warning[203]: Found opcode in column 1. (CALL)
+0038   2063           00064 CALL SIX
+Warning[203]: Found opcode in column 1. (CALL)
+0039   2047           00065 CALL delay
+Warning[203]: Found opcode in column 1. (CALL)
+003A   2060           00066 CALL FIVE
+Warning[203]: Found opcode in column 1. (CALL)
+003B   2047           00067 CALL delay
+Warning[203]: Found opcode in column 1. (CALL)
+003C   205D           00068 CALL FOUR
+Warning[203]: Found opcode in column 1. (CALL)
+003D   2047           00069 CALL delay
+Warning[203]: Found opcode in column 1. (CALL)
+003E   205A           00070 CALL THREE
+Warning[203]: Found opcode in column 1. (CALL)
+003F   2047           00071 CALL delay
+Warning[203]: Found opcode in column 1. (CALL)
+0040   2057           00072 CALL TWO
+Warning[203]: Found opcode in column 1. (CALL)
+0041   2047           00073 CALL delay
+Warning[203]: Found opcode in column 1. (CALL)
+0042   2054           00074 CALL ONE
+Warning[203]: Found opcode in column 1. (CALL)
+0043   2047           00075 CALL delay
+Warning[203]: Found opcode in column 1. (CALL)
+0044   2051           00076 CALL ZERO
+Warning[203]: Found opcode in column 1. (CALL)
+0045   2047           00077 CALL delay
+Warning[203]: Found opcode in column 1. (return)
+0046   0008           00078 return
+                      00079 
+                      00080 ; subroutine - Delay 1 second
+0047                  00081 delay:
+Warning[203]: Found opcode in column 1. (MOVLW)
+0047   30FF           00082 MOVLW 0xFF
+Warning[203]: Found opcode in column 1. (MOVWF)
+0048   008C           00083 MOVWF 0Ch
+Warning[207]: Found label after column 1. (loop_1)
+0049                  00084     loop_1:
+MPASM  5.51                     EXERCISE3.ASM   2-9-2023  13:20:31         PAGE  4
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
+0049   0B8C           00085     DECFSZ 0Ch, 1
+004A   284C           00086     goto loop_2
+004B   0008           00087     return
+Warning[207]: Found label after column 1. (loop_2)
+004C                  00088     loop_2:
+004C   3082           00089         MOVLW 0x82
+004D   008D           00090         MOVWF 0Dh
+Warning[207]: Found label after column 1. (loop_3)
+004E                  00091             loop_3:
+004E   0B8D           00092             DECFSZ 0Dh, 1
+004F   284E           00093             goto loop_3
+0050   2849           00094             goto loop_1
+                      00095 
+                      00096  ; Outputs
+0051                  00097 ZERO:
+Warning[203]: Found opcode in column 1. (MOVLW)
+0051   303F           00098 MOVLW 0x3F
+Warning[203]: Found opcode in column 1. (MOVWF)
+0052   0086           00099 MOVWF 06h
+Warning[203]: Found opcode in column 1. (return)
+0053   0008           00100 return
+                      00101 
+0054                  00102 ONE:
+Warning[203]: Found opcode in column 1. (MOVLW)
+0054   3006           00103 MOVLW 0x06
+Warning[203]: Found opcode in column 1. (MOVWF)
+0055   0086           00104 MOVWF 06h
+Warning[203]: Found opcode in column 1. (return)
+0056   0008           00105 return
+                      00106 
+0057                  00107 TWO:
+Warning[203]: Found opcode in column 1. (MOVLW)
+0057   305B           00108 MOVLW 0x5B
+Warning[203]: Found opcode in column 1. (MOVWF)
+0058   0086           00109 MOVWF 06h
+Warning[203]: Found opcode in column 1. (return)
+0059   0008           00110 return
+                      00111 
+005A                  00112 THREE:
+Warning[203]: Found opcode in column 1. (MOVLW)
+005A   304F           00113 MOVLW 0x4F
+Warning[203]: Found opcode in column 1. (MOVWF)
+005B   0086           00114 MOVWF 06h
+Warning[203]: Found opcode in column 1. (return)
+005C   0008           00115 return
+                      00116 
+005D                  00117 FOUR:
+Warning[203]: Found opcode in column 1. (MOVLW)
+005D   3066           00118 MOVLW 0x66
+Warning[203]: Found opcode in column 1. (MOVWF)
+005E   0086           00119 MOVWF 06h
+Warning[203]: Found opcode in column 1. (return)
+005F   0008           00120 return
+MPASM  5.51                     EXERCISE3.ASM   2-9-2023  13:20:31         PAGE  5
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
+                      00121 
+0060                  00122 FIVE:
+Warning[203]: Found opcode in column 1. (MOVLW)
+0060   306D           00123 MOVLW 0x6D
+Warning[203]: Found opcode in column 1. (MOVWF)
+0061   0086           00124 MOVWF 06h
+Warning[203]: Found opcode in column 1. (return)
+0062   0008           00125 return
+                      00126 
+0063                  00127 SIX:
+Warning[203]: Found opcode in column 1. (MOVLW)
+0063   307D           00128 MOVLW 0x7D
+Warning[203]: Found opcode in column 1. (MOVWF)
+0064   0086           00129 MOVWF 06h
+Warning[203]: Found opcode in column 1. (return)
+0065   0008           00130 return
+                      00131 
+0066                  00132 SEVEN:
+Warning[203]: Found opcode in column 1. (MOVLW)
+0066   3007           00133 MOVLW 0x07
+Warning[203]: Found opcode in column 1. (MOVWF)
+0067   0086           00134 MOVWF 06h
+Warning[203]: Found opcode in column 1. (return)
+0068   0008           00135 return
+                      00136 
+0069                  00137 EIGHT:
+Warning[203]: Found opcode in column 1. (MOVLW)
+0069   307F           00138 MOVLW 0x7F
+Warning[203]: Found opcode in column 1. (MOVWF)
+006A   0086           00139 MOVWF 06h
+Warning[203]: Found opcode in column 1. (return)
+006B   0008           00140 return
+                      00141 
+006C                  00142 NINE:
+Warning[203]: Found opcode in column 1. (MOVLW)
+006C   306F           00143 MOVLW 0x6F
+Warning[203]: Found opcode in column 1. (MOVWF)
+006D   0086           00144 MOVWF 06h
+Warning[203]: Found opcode in column 1. (return)
+006E   0008           00145 return
+                      00146 
+006F                  00147 A:
+Warning[203]: Found opcode in column 1. (MOVLW)
+006F   3077           00148 MOVLW 0x77
+Warning[203]: Found opcode in column 1. (MOVWF)
+0070   0086           00149 MOVWF 06h
+Warning[203]: Found opcode in column 1. (return)
+0071   0008           00150 return
+                      00151 
+0072                  00152 Bseg:
+Warning[203]: Found opcode in column 1. (MOVLW)
+0072   307C           00153 MOVLW 0x7C
+Warning[203]: Found opcode in column 1. (MOVWF)
+MPASM  5.51                     EXERCISE3.ASM   2-9-2023  13:20:31         PAGE  6
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
+0073   0086           00154 MOVWF 06h
+Warning[203]: Found opcode in column 1. (return)
+0074   0008           00155 return
+                      00156 
+0075                  00157 C:
+Warning[203]: Found opcode in column 1. (MOVLW)
+0075   3039           00158 MOVLW 0x39
+Warning[203]: Found opcode in column 1. (MOVWF)
+0076   0086           00159 MOVWF 06h
+Warning[203]: Found opcode in column 1. (return)
+0077   0008           00160 return
+                      00161 
+0078                  00162 D:
+Warning[203]: Found opcode in column 1. (MOVLW)
+0078   305E           00163 MOVLW 0x5E
+Warning[203]: Found opcode in column 1. (MOVWF)
+0079   0086           00164 MOVWF 06h
+Warning[203]: Found opcode in column 1. (return)
+007A   0008           00165 return
+                      00166 
+007B                  00167 E:
+Warning[203]: Found opcode in column 1. (MOVLW)
+007B   3079           00168 MOVLW 0x79
+Warning[203]: Found opcode in column 1. (MOVWF)
+007C   0086           00169 MOVWF 06h
+Warning[203]: Found opcode in column 1. (return)
+007D   0008           00170 return
+                      00171 
+007E                  00172 F:
+Warning[203]: Found opcode in column 1. (MOVLW)
+007E   3071           00173 MOVLW 0x71
+Warning[203]: Found opcode in column 1. (MOVWF)
+007F   0086           00174 MOVWF 06h
+Warning[203]: Found opcode in column 1. (return)
+0080   0008           00175 return
+                      00176 
+                      00177 ; main
+0081                  00178 START:
+Warning[203]: Found opcode in column 1. (CALL)
+0081   2005           00179 CALL count_up
+Warning[203]: Found opcode in column 1. (CALL)
+0082   2026           00180 CALL count_down
+                      00181 
+Warning[205]: Found directive in column 1. (END)
+                      00182 END
+MPASM  5.51                     EXERCISE3.ASM   2-9-2023  13:20:31         PAGE  7
+
+
+SYMBOL TABLE
+  LABEL                             VALUE 
+
+A                                 0000006F
+Bseg                              00000072
+C                                 00000075
+D                                 00000078
+E                                 0000007B
+EIGHT                             00000069
+F                                 0000007E
+FIVE                              00000060
+FOUR                              0000005D
+NINE                              0000006C
+ONE                               00000054
+SEVEN                             00000066
+SIX                               00000063
+START                             00000081
+THREE                             0000005A
+TWO                               00000057
+ZERO                              00000051
+__16F84A                          00000001
+__DEBUG                           1
+count_down                        00000026
+count_up                          00000005
+delay                             00000047
+loop_1                            00000049
+loop_2                            0000004C
+loop_3                            0000004E
+
+
+MEMORY USAGE MAP ('X' = Used,  '-' = Unused)
+
+0000 : XXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXX
+0040 : XXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXX
+0080 : XXX------------- ---------------- ---------------- ----------------
+
+All other memory blocks unused.
+
+Program Memory Words Used:   131
+Program Memory Words Free:   893
+
+
+Errors   :     0
+Warnings :   127 reported,     0 suppressed
+Messages :     1 reported,     0 suppressed
+
+
